@@ -21,30 +21,25 @@ Skor CV berdasarkan kualitas
 📊 Skoring CV berdasarkan metrik tertentu
 
 
-🖼️ Tampilan Aplikasi
-st.set_page_config(page_title="CV Analyzer AI", layout="wide")
-st.title("📄 CV Analyzer AI")
+🖼️ Website ini dibagi dalam lima tab utama:
 
-Aplikasi ini dibagi dalam lima tab utama:
-
-tab1, tab2, tab3, tab4, tab5 = st.tabs([
-    "📤 Upload CV", "🔍 Ringkasan", "🤖 Rekomendasi", 
-    "⚖️ Perbandingan", "📊 Skoring CV"
-])
+📤 Upload CV, 🔍 Ringkasan, 🤖 Rekomendasi, ⚖️ Perbandingan, 📊 Skoring CV
 
 
 📎 Contoh Penggunaan
 Setelah aplikasi berjalan, kamu dapat:
 
-Upload beberapa CV dalam format PDF.
+- Upload beberapa CV dalam format PDF.
 
-Melihat ringkasan dari masing-masing dokumen.
+- Melihat ringkasan dari masing-masing dokumen.
 
-Mendapatkan saran dan rekomendasi dari AI.
+- Mendapatkan saran dan rekomendasi dari AI.
 
-Membandingkan beberapa CV berdasarkan aspek tertentu (misalnya: pengalaman kerja, pendidikan).
+- Membandingkan beberapa CV berdasarkan aspek tertentu (misalnya: pengalaman kerja, pendidikan).
 
-Melihat skoring CV dengan indikator visual (grafik batang atau radar).
+- Melihat skoring CV dengan indikator visual (grafik batang atau radar).
+
+
 
 📝 Catatan Tambahan
 Model LLM yang digunakan adalah dari Groq/OpenAI.
