@@ -19,21 +19,3 @@ Skor CV berdasarkan kualitas
 ⚖️ Perbandingan CV antar kandidat
 
 📊 Skoring CV berdasarkan metrik tertentu
-
-🛠️ Instalasi
-Clone repository:
-git clone https://github.com/username/cv-analyzer-ai.git
-cd cv-analyzer-ai
-
-Instal dependensi:
-
-pip install -r requirements.txt
-Jika belum ada requirements.txt, gunakan ini:
-
-pip install streamlit pyngrok langchain langchain-groq chromadb sentence-transformers pymupdf python-dotenv pdfplumber pandas matplotlib
-
-▶️ Menjalankan Aplikasi
-bash
-Copy
-Edit
-streamlit run app.py
